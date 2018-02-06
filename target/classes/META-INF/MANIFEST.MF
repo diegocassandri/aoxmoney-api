@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: aoxmoney-api
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: diego
+Built-By: diegocassandri
 Implementation-Vendor-Id: com.aox.aoxmoney-api
-Build-Jdk: 1.8.0_131
+Build-Jdk: 1.8.0_161
 Implementation-URL: http://projects.spring.io/spring-boot/aoxmoney-api
  /
 Created-By: Maven Integration for Eclipse
