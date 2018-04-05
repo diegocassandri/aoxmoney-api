@@ -19,8 +19,6 @@ public class LancamentoService {
 	@Autowired
 	private PessoaRepository pessoaRepository;
 	
-	
-	
 	public Lancamento buscaPeloCodigo(Long codigo) {
 		Lancamento lancamentoSalvo = lancamentoRepository.findOne(codigo);
 		if(lancamentoSalvo == null) {
