@@ -18,6 +18,9 @@ import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
+
+
+
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class RefreshTokenCookiePreProcessorFilter implements Filter {
@@ -27,7 +30,6 @@ public class RefreshTokenCookiePreProcessorFilter implements Filter {
 			throws IOException, ServletException {
 		
 		HttpServletRequest req = (HttpServletRequest) request;
-	
 		
 		if ("/oauth/token".equalsIgnoreCase(req.getRequestURI()) 
 				&& "refresh_token".equals(req.getParameter("grant_type"))
